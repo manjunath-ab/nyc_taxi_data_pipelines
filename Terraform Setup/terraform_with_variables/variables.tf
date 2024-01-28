@@ -8,7 +8,7 @@ variable "credentials" {
 
 variable "project" {
   description = "Project"
-  default     = ""
+  default     = "affable-elf-912323"
 }
 
 variable "region" {
@@ -32,7 +32,7 @@ variable "bq_dataset_name" {
 variable "gcs_bucket_name" {
   description = "My Storage Bucket Name"
   #Update the below to a unique bucket name
-  default     = ""
+  default     = "affable-elf-912323-terra-bucket"
 }
 
 variable "gcs_storage_class" {
